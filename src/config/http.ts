@@ -1,9 +1,8 @@
 import axios from "axios";
-import config from "../config/config";
 import { obterToken } from "../services/autenticacao";
 
 const api = axios.create({
-    baseURL: config.BACK_END_URL
+    baseURL: "http://localhost:5279/"
 });
 
 
